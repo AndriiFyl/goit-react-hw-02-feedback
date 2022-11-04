@@ -1,0 +1,18 @@
+.Feedback__btn_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Feedback__btn {
+    min-width: 65px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Feedback__btn:hover {
+    transform: scale(1.05);
+    transition: transform linear 100ms;
+    background-color: bisque;
+}

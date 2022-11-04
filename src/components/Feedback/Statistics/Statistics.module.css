@@ -1,0 +1,27 @@
+.Statistics__wrapper {
+    width: 100%;
+}
+
+.Statistics__good,
+.Statistics__neutral,
+.Statistics__bad,
+.Statistics__total,
+.Statistics__percent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: grey;
+}
+
+.Statistics__number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+    display: flex;
+    
+}
